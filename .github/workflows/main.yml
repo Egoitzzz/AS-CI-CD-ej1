@@ -14,4 +14,4 @@ jobs:
         run: pip install pytest
 
       - name: Ejecutar tests
-        run: pytest test.py
+        run: pytest testA.py
