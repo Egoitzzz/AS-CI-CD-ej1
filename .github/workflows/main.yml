@@ -1,6 +1,9 @@
 name: Ej1 workflow
 
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   validar:
